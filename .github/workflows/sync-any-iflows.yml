@@ -32,8 +32,8 @@ jobs:
     env:
       HOST_TMN: f46f9be9trial.it-cpitrial05.cfapps.us10-001.hana.ondemand.com
       HOST_OAUTH: f46f9be9trial.authentication.us10.hana.ondemand.com/oauth/token
-      OAUTH_CLIENTID: ${{ secrets.DEV_CLIENT_ID }}
-      OAUTH_CLIENTSECRET: ${{ secrets.DEV_CLIENT_SECRET }}     
+      OAUTH_CLIENTID: sb-5b0e3f4f-94f6-4315-89a1-e97c559d4744!b65279|it!b26655
+      OAUTH_CLIENTSECRET: 11337c5f-9b58-46b6-8aa4-bf52fbbf726d$i36E6fgApEfzu0mOsRGfz8iaseyfzwpU8IQS3iIbPqQ=    
     steps:
     - uses: actions/checkout@v2
     - name: 'Set GIT_SRC_DIR for sync_to_git_repository.sh'
